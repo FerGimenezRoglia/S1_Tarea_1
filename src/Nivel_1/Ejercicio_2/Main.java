@@ -9,17 +9,16 @@ public class Main {
 
         Coche coche1 = new Coche(1200);
         Coche coche2 = new Coche(800);
+        Coche.setModelo("Uno");
 
         System.out.println("Mostrando Producción de Coches_1:");
         Coche.frenar();
-        coche1.setModelo("Uno");
 
         System.out.println(coche1.toString());
         coche1.acelerar();
 
         System.out.println("Mostrando Producción de Coches_2:");
         Coche.frenar();
-        coche1.setModelo("Panda");
 
         System.out.println(coche2.toString());
         coche2.acelerar();
