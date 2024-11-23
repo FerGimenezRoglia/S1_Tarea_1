@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) {
 
         AgenciaNoticias agenciaNoticias = new AgenciaNoticias();
-        System.out.println("\nInicializando la App... " + agenciaNoticias.toString());
+        System.out.println("\nInicializando la App... \n" + agenciaNoticias.toString());
 
         pruebasDeInstancias(agenciaNoticias); //instancio Redactores y Noticias de PRUEBA.
 
