@@ -12,7 +12,7 @@ public class AgenciaNoticias {
 
     public AgenciaNoticias() {
         this.redactores = new ArrayList<>();
-        this.noticias = new ArrayList<>();
+        this.noticias   = new ArrayList<>();
     }
 
     public ArrayList<Redactor> getRedactores() {

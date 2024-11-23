@@ -10,8 +10,8 @@ public class NoticiaFutbol extends Noticia {
 
         super(titular, texto);
         this.competicionFutbol = competiciónFutbol;
-        this.clubFutbol = clubFutbol;
-        this.jugadorFutbol = jugadorFutbol;
+        this.clubFutbol        = clubFutbol;
+        this.jugadorFutbol     = jugadorFutbol;
     }
 
     public String getCompeticiónFutbol() {

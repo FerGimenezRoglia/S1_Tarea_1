@@ -8,7 +8,7 @@ public class NoticiaTenis extends Noticia {
     public NoticiaTenis(String titular, String texto, String competicionTenis, String tenista) {
         super(titular, texto);
         this.competicionTenis = competicionTenis;
-        this.tenista = tenista;
+        this.tenista          = tenista;
     }
 
     public String getCompeticionTenis() {
