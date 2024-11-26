@@ -238,7 +238,7 @@ public class Main {
                 default:
                     System.out.println("Opción no válida. Intente nuevamente.");
             }
-        } while (opcion < 1 || opcion > 5); // Repetir mientras la opción no sea válida
+        } while (opcion < 1 || opcion > 5);
 
         if (nuevaNoticia != null) {
             System.out.println("La noticia se ha creado correctamente:\n" + nuevaNoticia);
