@@ -28,8 +28,8 @@ public abstract class Instrumento {
 
     public abstract void tocar();
 
-    static {
-        System.out.println("Instancia de la superclase Instrumento creada.");
+    public static String inicio() {
+        return "Instancia de la superclase Instrumento creada.\n";
     }
 
     @Override
