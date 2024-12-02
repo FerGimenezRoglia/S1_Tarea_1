@@ -10,8 +10,8 @@ public abstract class Noticia {
     public Noticia(String titular, String texto) {
         this.titular    = titular;
         this.texto      = texto;
-        this.puntuacion = 0;
-        this.precio     = 0f;
+        this.puntuacion = puntuacion;
+        this.precio     = precio;
     }
 
     public String getTitular() {
